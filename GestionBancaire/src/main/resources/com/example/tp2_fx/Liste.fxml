@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.tp2_fx.transactionController">
+    <TableView fx:id="transactionTable">
+        <columns>
+            <TableColumn text="Numéro Transaction" prefWidth="150" fx:id="colNumeroTransaction"/>
+            <TableColumn text="Montant" prefWidth="150" fx:id="colMontant"/>
+            <TableColumn text="Compte" prefWidth="150" fx:id="colCompte"/>
+            <TableColumn text="Compte Destinataire" prefWidth="150" fx:id="colCompteTransfert"/>
+        </columns>
+    </TableView>
+</AnchorPane>

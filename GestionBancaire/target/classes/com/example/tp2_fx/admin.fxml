@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="541.0" prefWidth="474.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tp2_fx.adminController">
+    <children>
+        <Pane layoutX="28.0" layoutY="31.0" prefHeight="483.0" prefWidth="419.0" style="-fx-background-color: white;">
+            <children>
+                <Label layoutX="166.0" layoutY="14.0" text="Administrateur">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <Button fx:id="creerclient" layoutX="95.0" layoutY="49.0" mnemonicParsing="false" onAction="#btncreerclient" prefHeight="25.0" prefWidth="240.0" text="Créer un client">
+                    <font>
+                        <Font size="13.0" />
+                    </font>
+                </Button>
+                <Button fx:id="creercompte" layoutX="94.0" layoutY="89.0" mnemonicParsing="false" onAction="#btncreercompte" prefHeight="25.0" prefWidth="240.0" text="Créer un compte">
+                    <font>
+                        <Font size="13.0" />
+                    </font>
+                </Button>
+                <Button fx:id="liste" layoutX="94.0" layoutY="129.0" mnemonicParsing="false" onAction="#afficherTransactions" prefHeight="27.0" prefWidth="240.0" text="Liste des transcations">
+                    <font>
+                        <Font size="13.0" />
+                    </font>
+                </Button>
+                <Button fx:id="bloquer" layoutX="94.0" layoutY="211.0" mnemonicParsing="false" onAction="#bloquerDebloquerClient" prefHeight="27.0" prefWidth="240.0" text="Bloquer acces">
+                    <font>
+                        <Font size="13.0" />
+                    </font>
+                </Button>
+                <Button fx:id="ajout" layoutX="94.0" layoutY="171.0" mnemonicParsing="false" onAction="#ajouterArgentPapierAuGuichet" prefHeight="27.0" prefWidth="240.0" text="Ajout d'argent papier">
+                    <font>
+                        <Font size="13.0" />
+                    </font>
+                </Button>
+                <Button fx:id="debloquer" layoutX="95.0" layoutY="261.0" mnemonicParsing="false" onAction="#bloquerDebloquerClient" prefHeight="27.0" prefWidth="240.0" text="Débloquer acces">
+                    <font>
+                        <Font size="13.0" />
+                    </font>
+                </Button>
+                <Button fx:id="payer" layoutX="95.0" layoutY="305.0" mnemonicParsing="false" onAction="#payerInteretComptesEpargne" prefHeight="27.0" prefWidth="240.0" text="Payer de l'interet(1%)">
+                    <font>
+                        <Font size="13.0" />
+                    </font>
+                </Button>
+                <Button fx:id="prelever" layoutX="95.0" layoutY="347.0" mnemonicParsing="false" onAction="#preleverMontantHypo" prefHeight="25.0" prefWidth="240.0" text="Prélever montant">
+                    <font>
+                        <Font size="13.0" />
+                    </font>
+                </Button>
+                <Button fx:id="augmenter" layoutX="95.0" layoutY="396.0" mnemonicParsing="false" onAction="#augmenterSoldeMarges" prefHeight="25.0" prefWidth="240.0" text="Augmenter de 5% le solde">
+                    <font>
+                        <Font size="13.0" />
+                    </font>
+                </Button>
+            <Button fx:id="Fermer" layoutX="150.0" layoutY="442.0" mnemonicParsing="false" onAction="#fermerGuichet" prefHeight="27.0" prefWidth="119.0" text="Fermer">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            </children>
+        </Pane>
+    </children>
+</Pane>

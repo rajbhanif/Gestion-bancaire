@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="121.0" prefWidth="509.0" style="-fx-border-color: red; -fx-background-color: red;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label layoutX="40.0" layoutY="6.0" text="!" textFill="#efeaea">
+            <font>
+                <Font size="71.0" />
+            </font>
+        </Label>
+        <Label layoutX="82.0" layoutY="44.0" text="Désolé, montant du retrait depasse la limite." textFill="#f2e8e8">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+    </children>
+</Pane>

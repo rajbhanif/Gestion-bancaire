@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="472.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tp2_fx.creerClientController">
+    <children>
+        <Pane layoutX="37.0" layoutY="100.0" prefHeight="184.0" prefWidth="395.0" style="-fx-background-color: black;">
+            <children>
+                <Pane layoutX="3.0" layoutY="3.0" prefHeight="177.0" prefWidth="389.0" style="-fx-background-color: red;">
+                    <children>
+                        <Label layoutX="142.0" layoutY="42.0" prefHeight="47.0" prefWidth="106.0" text="SUCCES!" textFill="WHITE">
+                            <font>
+                                <Font size="24.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="49.0" layoutY="89.0" prefHeight="28.0" prefWidth="326.0" text="Le client est creer. Veuillez regarder dans afficher client" textFill="#fdfdfd">
+                            <font>
+                                <Font size="13.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+            </children>
+        </Pane>
+    </children>
+</Pane>

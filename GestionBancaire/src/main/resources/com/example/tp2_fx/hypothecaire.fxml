@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="354.0" prefWidth="408.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tp2_fx.hypothecaireController">
+   <children>
+      <Pane layoutX="25.0" layoutY="18.0" prefHeight="317.0" prefWidth="358.0" style="-fx-background-color: white;">
+         <children>
+            <Label layoutX="144.0" layoutY="33.0" text="Hypothecaire" />
+            <Label layoutX="33.0" layoutY="98.0" text="Depot de :" />
+            <Label layoutX="24.0" layoutY="159.0" text="Solde totale : " />
+            <Button fx:id="btnSolde" layoutX="105.0" layoutY="233.0" mnemonicParsing="false" onAction="#handleSoldeButtonClick" prefHeight="25.0" prefWidth="149.0" text="Solde" />
+            <TextField fx:id="depot" layoutX="160.0" layoutY="94.0" />
+            <TextField fx:id="soldTotal" layoutX="160.0" layoutY="155.0" />
+            <Button fx:id="btnRetour" layoutX="27.0" layoutY="276.0" mnemonicParsing="false" onAction="#handleRetourButtonClick" prefHeight="25.0" prefWidth="121.0" text="Retour" />
+            <Button fx:id="btnContinuer" layoutX="205.0" layoutY="276.0" mnemonicParsing="false" onAction="#handleContinuerButtonClick" prefHeight="25.0" prefWidth="121.0" text="Continuer" />
+         </children>
+      </Pane>
+   </children>
+</Pane>

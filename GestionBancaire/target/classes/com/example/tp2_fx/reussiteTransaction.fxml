@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="134.0" prefWidth="382.0" style="-fx-border-color: blue;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="48.0" layoutY="50.0" text="Transaction éffectuée.Merci ">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
