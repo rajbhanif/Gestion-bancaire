@@ -73,7 +73,7 @@ Ou via Maven :
 
 ### Vidéo de démonstration (cmd + click)
 
-<a href="gestion-bancaire.mp4" target="_blank">▶ Cliquez ici pour voir la démo de l’application</a>
+<a href="https://rajbhanif.github.io/Gestion-bancaire/gestion-bancaire.mp4" target="_blank">▶ Cliquez ici pour ouvrir la vidéo de démo</a>
 
 *La vidéo montre la navigation complète : connexion → gestion clients → comptes → opérations.*
 
