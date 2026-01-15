@@ -88,7 +88,7 @@ Ce projet a été réalisé dans un cadre académique afin de pratiquer :
 
 Le code est fourni à des fins éducatives.
 
-## Auteur
+## Autrice
 
 **Raj Beghum Hanif**
 Projet académique – Gestion Bancaire (Java / JavaFX)
